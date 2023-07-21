@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deltrex-product-form/static/css/main.c6e361ca.css",
-    "main.js": "/deltrex-product-form/static/js/main.c7c3c78f.js",
+    "main.js": "/deltrex-product-form/static/js/main.e37f68a7.js",
     "static/js/787.1342cbe9.chunk.js": "/deltrex-product-form/static/js/787.1342cbe9.chunk.js",
     "static/media/Product-Map1.png": "/deltrex-product-form/static/media/Product-Map1.2078ac7d8caf34eb503e.png",
     "static/media/description-customization-options.png": "/deltrex-product-form/static/media/description-customization-options.70d6bda5c2579b98025c.png",
@@ -10,11 +10,11 @@
     "static/media/short-description1.png": "/deltrex-product-form/static/media/short-description1.a6eeae55682418c253cd.png",
     "index.html": "/deltrex-product-form/index.html",
     "main.c6e361ca.css.map": "/deltrex-product-form/static/css/main.c6e361ca.css.map",
-    "main.c7c3c78f.js.map": "/deltrex-product-form/static/js/main.c7c3c78f.js.map",
+    "main.e37f68a7.js.map": "/deltrex-product-form/static/js/main.e37f68a7.js.map",
     "787.1342cbe9.chunk.js.map": "/deltrex-product-form/static/js/787.1342cbe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e361ca.css",
-    "static/js/main.c7c3c78f.js"
+    "static/js/main.e37f68a7.js"
   ]
 }
