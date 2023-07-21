@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/deltrex-product-form/static/css/main.073c9b0a.css",
+    "main.js": "/deltrex-product-form/static/js/main.aa290ccf.js",
+    "static/js/787.1342cbe9.chunk.js": "/deltrex-product-form/static/js/787.1342cbe9.chunk.js",
+    "static/media/logo.svg": "/deltrex-product-form/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/deltrex-product-form/index.html",
+    "main.073c9b0a.css.map": "/deltrex-product-form/static/css/main.073c9b0a.css.map",
+    "main.aa290ccf.js.map": "/deltrex-product-form/static/js/main.aa290ccf.js.map",
+    "787.1342cbe9.chunk.js.map": "/deltrex-product-form/static/js/787.1342cbe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.aa290ccf.js"
+  ]
+}
