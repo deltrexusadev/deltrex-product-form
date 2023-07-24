@@ -1,0 +1,268 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.App {
+    margin-right: 10em;
+    margin-left: 10em;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 900px){
+    .App {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+}
+
+#init-msg {
+    margin-right: 10em;
+    margin-left: 10em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    padding: 0;
+    color: white;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: #b92957;
+    text-align: center;
+}
+
+nav .links {
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-align: left;
+    margin: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 5px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav h1 {
+    font-size: 2em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.all-products input {
+    padding: auto;
+    width: 100%;
+}
+
+.product-listing {
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    display: grid;
+    border: 1px solid gray;
+}
+
+.product-listing .buttons button{
+    margin-left: 10px;
+}
+
+.product-listing .general {
+    border: 1px solid black;
+    padding: 15px;
+    /* max-width: 500px; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.info-container .info-container-image img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.product-listing button {
+    display: inline-block;
+    width: 125px;
+}
+
+.product-listing .categories {
+    border: 1px solid black;
+    display: inline-block;
+    /* max-width: 250px; */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #b92957;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0;
+}
+
+.info-container {
+    margin-bottom: 25px;
+}
+
+.info-container-image {
+    margin-bottom: 25px;
+}
+
+.create {
+    padding: 25px;
+}
+
+.general input {
+    max-width: 275px;
+}
+
+.product-listing .info {
+    display: grid;
+    max-width: 600px;
+    /* background-color: rgba(0, 0, 0, 0.064); */
+    padding: 15px;
+}
+
+#modal {
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 75%;
+    text-align: center;
+    color: white;
+}
+
+#modal button {
+    margin: 5px;
+}
+
+#delete-modal {
+    background-color: black;
+    opacity: 55%;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.page {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.page a {
+    max-width: 100px;
+}
+
+.page input {
+    width: 100px;
+}
+
+.checklist-option, .update-checkboxes {
+    border: 1px solid gray;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: left;
+    justify-content: left;
+    padding: 5px;
+}
+
+.update-checkboxes {
+    border: none;
+}
+
+textarea, input {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.create-main-img img {
+    max-width: 300px;
+    box-shadow: 1px 1px 5px black;
+    margin-bottom: 15px;
+}
+
+.create-main-img input {
+    width: 100%;
+}
+
+#modal img {
+    max-width: 300px;
+}
+
+.create-layout input, .create-layout textarea {
+    width: 100%;
+}
+
+.dvv {
+    margin-bottom: 55px;
+}
+
+.image-section img {
+    max-width: 500px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.custom-option {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(231, 231, 231);
+}
+
+.custom-option input[type='checkbox'] {
+    min-width: 50px;
+    max-height: 15px;
+}
+
+.display-image img {
+    width: 100%;
+    box-shadow: none;
+}
+
+#change-name {
+    border: 1px solid orange;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgb(255, 208, 0);
+}
